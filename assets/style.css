@@ -265,7 +265,9 @@ nav .menu-btn{
 }
 @media(max-width:1140px){
     .content{
-        width:100%
+        width:100%;
+        padding-right: 200px;
+
     }
     .model{
         width:400px;
@@ -275,7 +277,7 @@ nav .menu-btn{
         margin:10px;
     }
     .main-text h1{
-        font-size: 3rem;
+        font-size: 2em;
     }
     .skill-img{
         width: 400px;
@@ -286,6 +288,12 @@ nav .menu-btn{
     }
 }
 @media(max-width:900px){
+
+    .content{
+        width:100%;
+        padding-right: 10px;
+
+    }
     nav{
         justify-content: space-between;
         height: 65px;
@@ -393,13 +401,7 @@ display: none;
         height: 200px;
     }
 
-    .main-text{
-        width:70%;
-        position: absolute;
-        left: 50%;
-        top: 505;
-        transform: translate(-50%,-50%);
-    }
+
 }
 @media(max-width:530px){
     .skill-img{
